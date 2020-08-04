@@ -1,16 +1,19 @@
-### Hi there 👋
+![oie_transparent (3)](http://cdrtechnology.com.br/wp-content/capa_github.png)
 
-<!--
-**iuryLandin/iurylandin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<center>
+<table>
+  <tr>
+      <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iurylandin&hide=html&layout=compact&theme=gruvbox" /></td>
+      <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=iurylandin&theme=gruvbox" /></td>
+  </tr>   
+</table>
+</center>
 
-Here are some ideas to get you started:
+Hi 👋
+Welcome to my git, in fact there's no many repositories but some news is comming soon.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### About me
+
+🇧🇷  |Palmas, TO
+💻 |NodeJS, JavaScript Client Side, ReactNative, PHP, JSF && CSS💕
+
