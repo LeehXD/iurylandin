@@ -14,6 +14,6 @@ Welcome to my git, in fact there's no many repositories but some news is comming
 
 #### About me
 
-🇧🇷  |Palmas, TO
-💻 |NodeJS, JavaScript Client Side, ReactNative, PHP, JSF && CSS💕
+<p>🇧🇷  |Palmas, TO</p>
+<p>💻 |NodeJS, JavaScript Client Side, ReactNative, PHP, JSF && CSS💕</p>
 
