@@ -11,7 +11,7 @@
 
 Hi 👋 <br>
 Welcome to my git!!!<br>
-in fact there's no many repositories but some news is comming soon.
+in fact there's no many repositories but some news are comming soon.
 
 #### About me
 
