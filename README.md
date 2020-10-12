@@ -1,4 +1,4 @@
-![oie_transparent (3)](http://cdrtechnology.com.br/wp-content/capa_github2.png)
+![Landin](http://cdrtechnology.com.br/wp-content/capa_github2.png)
 
 <center>
 <table>
