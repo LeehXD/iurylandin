@@ -9,12 +9,15 @@
 </table>
 </center>
 
-Hi 👋 <br>
-Welcome to my git!!!<br>
-in fact there's no many repositories but some news are comming soon.
+E aeee jovem 👋 <br>
+Por enquanto n tem nada de interessante a n ser projeto da facul.<br>
+Mas ao poucos vou ta colocando uns projeto da hora.<br>
+
+segue no insta pra fortalecer: @iury.landin // nick padrão das poha toda (Landin é meu sobrenome e n apelido... Vlw)
+
 
 #### About me
 
 <p>🇧🇷  |Palmas, TO</p>
-<p>💻 |NodeJS, JavaScript Client Side, ReactNative, PHP, JSF && CSS💕</p>
+<p>💻 |NodeJs, React-Native, python, PHP, JSF && CSS💕</p>
 
