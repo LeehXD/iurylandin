@@ -9,12 +9,15 @@
 </table>
 </center>
 
-E aeee jovem 👋 <br>
-Por enquanto n tem nada de interessante a n ser projeto da facul.<br>
-Mas ao poucos vou ta colocando uns projeto da hora.<br>
+Olá, tudo bem?!
+Ainda não consegui trazer nada de interessante aqui pro Git.
+Em breve disponibilizarei projetos open para vocês usarem.
 
-segue no insta pra fortalecer: @iury.landin // nick padrão das poha toda (Landin é meu sobrenome e n apelido... Vlw)
+Os projetos contidos aqui são de estudo e os repositórios privados é do trabalho.
 
+Mas em breve vou rechear de coisas da hora aqui!!!
+
+Valeu, até mais 👋
 
 #### About me
 
