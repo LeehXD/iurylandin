@@ -9,18 +9,14 @@
 </table>
 </center>
 
-Olá, tudo bem?!
-Ainda não consegui trazer nada de interessante aqui pro Git.
-Em breve disponibilizarei projetos open para vocês usarem.
+Hello everyone!!!
+I'm a fullstack developer. 
+So, right now there's no much public repository here, but in the future I'll bring some news for you. Thanks a lot
 
-Os projetos contidos aqui são de estudo e os repositórios privados é do trabalho.
-
-Mas em breve vou rechear de coisas da hora aqui!!!
-
-Valeu, até mais 👋
 
 #### About me
 
 <p>🇧🇷  |Palmas, TO</p>
 <p>💻 |NodeJs, React-Native, python, PHP, JSF && CSS💕</p>
 
+Hey, don't forget to follow me 😅
