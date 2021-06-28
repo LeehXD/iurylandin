@@ -4,7 +4,7 @@
 <table>
   <tr>
       <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iurylandin&hide=html&layout=compact" /></td>
-      <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=iurylandin" /></td>
+      <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=iurylandin&show_icons=true&include_all_commits=true" /></td>
   </tr>   
 </table>
 </center>
