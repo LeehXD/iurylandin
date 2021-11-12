@@ -1,4 +1,3 @@
-![Landin](http://cdrtechnology.com.br/wp-content/capa_github2.png)
 
 <center>
 <table>
@@ -9,6 +8,7 @@
 </table>
 </center>
 
+<img src="https://komarev.com/ghpvc/?username=iurylandinm&label=Profile%20views&color=0e75b6&style=flat" alt="iurylandin" />
 
 **😎 About me**  
 Palmas, TO - 🇧🇷
