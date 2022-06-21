@@ -1,34 +1,33 @@
+### 👋 Enthusiastic and creative developer with 🔥hands-on skills in a wide range of web applications
 
-<center>
+<img align="left" src="https://komarev.com/ghpvc/?username=iurylandinm&label=Profile%20views&color=0e75b6&style=flat" />
+<img align="right" src="https://img.shields.io/github/followers/iuryLandin?label=Follow&style=social" />
+<h1 align="center"></h1>
+<!-- <img width="100%" src="https://activity-graph.herokuapp.com/graph?username=iuryLandin&theme=github&count_private=true" /> -->
+<h1 align="center"></h1>
+<img align="left" height="170px" src="https://github-readme-stats.vercel.app/api?username=iurylandin&count_private=true&show_icons=true&theme=chartreuse-dark" />
+<img align="right" height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iurylandin&layout=compact&theme=chartreuse-dark&langs_count=8" />
+<img height="150" />
+</br>
+<h2 font-weight="bold" style="display: block; text-align: center; margin-top: 100px;">My Top Skills</h2>
 <table>
-  <tr>
-      <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iurylandin&hide=html&layout=compact" /></td>
-      <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=iurylandin&show_icons=true&include_all_commits=true" /></td>
-  </tr>   
+    <tr>
+        <td><img src="https://img.icons8.com/officel/2x/react.png" width="100" alt="React.js"></td>
+        <td><img src="https://img.icons8.com/color/2x/vue-js.png" width="100" alt="Vue.js"></td>
+        <td><img src="https://img.icons8.com/color/2x/html-5.png" width="100" alt="HTML5"></td>
+        <td><img src="https://img.icons8.com/color/2x/css3.png" width="100" alt="CSS3"></td>
+        <td><img src="https://img.icons8.com/color/2x/bootstrap.png" width="100" alt="Bootstrap"></td>
+        <td><img src="https://img.icons8.com/nolan/2x/javascript.png" width="100" alt="JavaScript"></td>
+        <td><img src="https://img.icons8.com/color/2x/typescript.png" width="100" alt="TypeScript"></td>
+        <td><img src="https://img.icons8.com/color/2x/nodejs.png" width="100" alt="node.js"></td>
+        <td><img src="https://cdn.iconscout.com/icon/free/png-64/laravel-226015.png" width="100" alt="Laravel"></td>
+    </tr>
+ 
 </table>
-</center>
-
-<img src="https://komarev.com/ghpvc/?username=iurylandinm&label=Profile%20views&color=0e75b6&style=flat" alt="iurylandin" />
-
-**😎 About me**  
-Palmas, TO - 🇧🇷
-
-<p>Hello everyone!!!
-I'm a fullstack developer. 
-So, right now there's no much public repository here, but in the future I'll bring some news for you. Thanks a lot</p>
 
 
-**💻 Languages and Tools**  
-
-<p>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>   
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/php/php.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/css/css.png"></code>
-</p>
-
+**Palmas, TO - 🇧🇷**  
+ 
 Hey, don't forget to follow me 😅
 
 
