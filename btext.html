@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Criptografar Textos | Landin</title>
+
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 60%;
+            padding: 1rem;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input[type=submit] {
+            cursor: pointer;
+        }
+
+        textarea {
+            height: 120px !important;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 7px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 17px;
+            margin: 4px 2px;
+            border-radius: 5px;
+        }
+
+        .button-orange {
+            color: white;
+            background-color: #ff6600;
+        }
+
+        .button-share {
+            color: white;
+            background-color: #0059ff;
+        }
+
+        .button-objetivo {
+            color: #181616;
+            background-color: #00eb14;
+            ;
+            font-weight: bold;
+        }
+
+        .button-objetivo:hover {
+            background-color: #05b113;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: .4rem;
+        }
+
+        /*### Smartphones (portrait and landscape)(small)### */
+        @media screen and (min-width : 0px) and (max-width : 767px) {
+            .container {
+                width: 100%;
+                padding: 2rem;
+            }
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #181616; color: #fff;">
+    <div class="center">
+
+        <div class="container">
+            <h2 style="color: #ffffff; text-align: center; font-weight: bolder;">CRIPTOGRAFAR TEXTO</h2>
+            <hr />
+
+            <h3 style="color: #ff9100;">DIGITE O TEXTO QUE DESEJA CRIPTOGRAFAR.</h3>
+
+            <form id="formulario">
+                <textarea type="text" id="campo" name="name" placeholder=" Escreva o seu texto aqui "
+                    style="width:100%; border-radius: 10px; height: 5rem; outline: none;"></textarea>
+                <br>
+                <br>
+                <h3 style="color: #fff; text-align: center;">SELECIONE QUAL SERA O SEU OBJETIVO</h3>
+                <div id="select" class="buttons">
+                    <input type="submit" value=" Facebook Ads " id="TX" class="button button-objetivo" />
+                    <input type="submit" value=" Tiktok Ads " id="TI" class="button button-objetivo" />
+                    <input type="submit" value=" Google Ads " id="GO" class="button button-objetivo" />
+                    <input type="submit" value=" Sites " id="BI" class="button button-objetivo">
+                    <input type="submit" value=" E-mail " id="MI" class="button button-objetivo">
+                    <input type="submit" value=" SMS/WHATSAPP " id="SM" class="button button-objetivo">
+                </div>
+            </form>
+            <br>
+
+            <h4 style="color: #ff9100;"> COPIE O SEU TEXTO CRIPTOGRAFADO.</h4>
+            <textarea id="cript"
+                style="border: 1px #fff solid; width: 100%; height: 5rem; padding: 0.5rem; border-radius: 10px;"></textarea>
+            <br><br>
+
+            <button onclick="copiarHtml()" class="button">Copiar</button>
+            <button onclick="compartilhar()" class="button button-share">Compartilhar</button>
+            <button onclick="limpar()" class="button button-orange">Limpar</button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // Criado por Landin
+        function _0x16d0(_0x46e40a, _0x251869) { var _0x4ffd2a = _0x4ffd(); return _0x16d0 = function (_0x16d018, _0x40c4cb) { _0x16d018 = _0x16d018 - 0x1b9; var _0x180640 = _0x4ffd2a[_0x16d018]; return _0x180640; }, _0x16d0(_0x46e40a, _0x251869); } var _0x3db25d = _0x16d0; (function (_0x1cea76, _0x115161) { var _0x5e6791 = _0x16d0, _0x35f1fa = _0x1cea76(); while (!![]) { try { var _0x51f443 = parseInt(_0x5e6791(0x1c1)) / 0x1 * (parseInt(_0x5e6791(0x1c9)) / 0x2) + -parseInt(_0x5e6791(0x1ca)) / 0x3 + -parseInt(_0x5e6791(0x1bd)) / 0x4 + parseInt(_0x5e6791(0x1c8)) / 0x5 * (parseInt(_0x5e6791(0x1c0)) / 0x6) + -parseInt(_0x5e6791(0x1cf)) / 0x7 * (-parseInt(_0x5e6791(0x1c6)) / 0x8) + parseInt(_0x5e6791(0x1c7)) / 0x9 + -parseInt(_0x5e6791(0x1ce)) / 0xa; if (_0x51f443 === _0x115161) break; else _0x35f1fa['push'](_0x35f1fa['shift']()); } catch (_0x2742f3) { _0x35f1fa['push'](_0x35f1fa['shift']()); } } }(_0x4ffd, 0x634b8), result = document['getElementById'](_0x3db25d(0x1be))); var form = document[_0x3db25d(0x1d0)](_0x3db25d(0x1bf)), campo = document[_0x3db25d(0x1d0)](_0x3db25d(0x1c3)), bi = document[_0x3db25d(0x1d0)]('BI'), tx = document['getElementById']('TX'), ti = document[_0x3db25d(0x1d0)]('TI'), go = document[_0x3db25d(0x1d0)]('GO'), mi = document[_0x3db25d(0x1d0)]('MI'); mi['addEventListener']('click', function (_0x2b846c) { var _0x1623f5 = _0x3db25d, _0x35eb96 = '&#8238;', _0x35eb96 = _0x35eb96 + campo[_0x1623f5(0x1bc)]['split']('')['reverse']()[_0x1623f5(0x1cc)](''); _0x2b846c[_0x1623f5(0x1cb)](), document['getElementById'](_0x1623f5(0x1be))['innerHTML'] = _0x35eb96; }), sm = document[_0x3db25d(0x1d0)]('SM'), (sm['addEventListener'](_0x3db25d(0x1b9), function (_0x36c95c) { var _0x40aad6 = _0x3db25d, _0x2220f5 = _0x40aad6(0x1bb), _0x2220f5 = _0x2220f5 + campo[_0x40aad6(0x1bc)][_0x40aad6(0x1c2)]('')[_0x40aad6(0x1ba)]()[_0x40aad6(0x1cc)](''); _0x36c95c[_0x40aad6(0x1cb)](), document[_0x40aad6(0x1d0)]('cript')['innerHTML'] = _0x2220f5; }), tx[_0x3db25d(0x1c5)]('click', function (_0x5b269b) { var _0x224eb9 = _0x3db25d; for (var _0x3fcb27 = '', _0x1e4456 = campo[_0x224eb9(0x1bc)]['split'](''), _0x3dd66b = 0x0; _0x1e4456['length'] != _0x3dd66b; _0x3dd66b += 0x1) { var _0x563d8b = _0x1e4456; switch (_0x563d8b[_0x3dd66b]) { case 'a': _0x3fcb27 += 'а'; break; case 'c': _0x3fcb27 += 'с'; break; case 'e': _0x3fcb27 += 'е'; break; case 'i': _0x3fcb27 += 'і'; break; case 'j': _0x3fcb27 += 'ј'; break; case 'o': _0x3fcb27 += 'о'; break; case 'p': _0x3fcb27 += 'р'; break; case 's': _0x3fcb27 += 'ѕ'; break; case 'x': _0x3fcb27 += 'х'; break; case 'y': _0x3fcb27 += 'у'; break; case 'A': _0x3fcb27 += 'А'; break; case 'B': _0x3fcb27 += 'В'; break; case 'C': _0x3fcb27 += 'С'; break; case 'E': _0x3fcb27 += 'Е'; break; case 'H': _0x3fcb27 += 'Н'; break; case 'I': _0x3fcb27 += 'I'; break; case 'K': _0x3fcb27 += 'Κ'; break; case 'M': _0x3fcb27 += 'М'; break; case 'N': _0x3fcb27 += 'Ν'; break; case 'O': _0x3fcb27 += 'О'; break; case 'P': _0x3fcb27 += 'Р'; break; case 'S': _0x3fcb27 += 'Ѕ'; break; case 'T': _0x3fcb27 += 'Т'; break; case 'X': _0x3fcb27 += 'Х'; break; case 'Y': _0x3fcb27 += 'Υ'; break; case 'Z': _0x3fcb27 += 'Ζ'; break; case '\x20': _0x3fcb27 += ''; default: _0x3fcb27 += _0x563d8b[_0x3dd66b]; } } _0x5b269b[_0x224eb9(0x1cb)](), document[_0x224eb9(0x1d0)](_0x224eb9(0x1be))[_0x224eb9(0x1cd)] = _0x3fcb27; }), bi['addEventListener'](_0x3db25d(0x1b9), function (_0x430af2) { var _0x38ddd8 = _0x3db25d; for (var _0x229085 = '', _0xa98790 = campo['value'][_0x38ddd8(0x1c2)](''), _0x1b5824 = 0x0; _0xa98790[_0x38ddd8(0x1c4)] != _0x1b5824; _0x1b5824 += 0x1) { var _0x7dff2e = _0xa98790; switch (_0x229085 += '​', _0x7dff2e[_0x1b5824]) { case 'a': _0x229085 += 'а'; break; case 'c': _0x229085 += 'с'; break; case 'e': _0x229085 += 'е'; break; case 'i': _0x229085 += 'і'; break; case 'j': _0x229085 += 'ј'; break; case 'o': _0x229085 += 'о'; break; case 'p': _0x229085 += 'р'; break; case 's': _0x229085 += 'ѕ'; break; case 'x': _0x229085 += 'х'; break; case 'y': _0x229085 += 'у'; break; case 'A': _0x229085 += 'А'; break; case 'B': _0x229085 += 'В'; break; case 'C': _0x229085 += 'С'; break; case 'E': _0x229085 += 'Е'; break; case 'H': _0x229085 += 'Н'; break; case 'I': _0x229085 += 'I'; break; case 'K': _0x229085 += 'Κ'; break; case 'M': _0x229085 += 'М'; break; case 'N': _0x229085 += 'Ν'; break; case 'O': _0x229085 += 'О'; break; case 'P': _0x229085 += 'Р'; break; case 'S': _0x229085 += 'Ѕ'; break; case 'T': _0x229085 += 'Т'; break; case 'X': _0x229085 += 'Х'; break; case 'Y': _0x229085 += 'Υ'; break; case 'Z': _0x229085 += 'Ζ'; break; case '\x20': _0x229085 += ''; default: _0x229085 += _0x7dff2e[_0x1b5824]; } } _0x430af2['preventDefault'](), document['getElementById'](_0x38ddd8(0x1be))[_0x38ddd8(0x1cd)] = _0x229085; }), ti['addEventListener'](_0x3db25d(0x1b9), function (_0x3ccda3) { var _0x183e6b = _0x3db25d; for (var _0x413872 = '', _0x2c75b8 = campo[_0x183e6b(0x1bc)]['split'](''), _0x217e34 = 0x0; _0x2c75b8[_0x183e6b(0x1c4)] != _0x217e34; _0x217e34 += 0x1) { var _0x175c5c = _0x2c75b8; switch (_0x175c5c[_0x217e34]) { case 'a': _0x413872 += 'а'; break; case 'c': _0x413872 += 'с'; break; case 'e': _0x413872 += 'е'; break; case 'i': _0x413872 += 'і'; break; case 'j': _0x413872 += 'ј'; break; case 'o': _0x413872 += 'о'; break; case 'p': _0x413872 += 'р'; break; case 's': _0x413872 += 'ѕ'; break; case 'x': _0x413872 += 'х'; break; case 'y': _0x413872 += 'у'; break; case 'A': _0x413872 += 'А'; break; case 'B': _0x413872 += 'В'; break; case 'C': _0x413872 += 'С'; break; case 'E': _0x413872 += 'Е'; break; case 'H': _0x413872 += 'Н'; break; case 'I': _0x413872 += 'I'; break; case 'K': _0x413872 += 'Κ'; break; case 'M': _0x413872 += 'М'; break; case 'N': _0x413872 += 'Ν'; break; case 'O': _0x413872 += 'О'; break; case 'P': _0x413872 += 'Р'; break; case 'S': _0x413872 += 'Ѕ'; break; case 'T': _0x413872 += 'Т'; break; case 'X': _0x413872 += 'Х'; break; case 'Y': _0x413872 += 'Υ'; break; case 'Z': _0x413872 += 'Ζ'; break; case '\x20': _0x413872 += ''; default: _0x413872 += _0x175c5c[_0x217e34]; } } _0x3ccda3['preventDefault'](), document[_0x183e6b(0x1d0)](_0x183e6b(0x1be))[_0x183e6b(0x1cd)] = _0x413872; }), bi[_0x3db25d(0x1c5)](_0x3db25d(0x1b9), function (_0x3ff1dd) { var _0x19aa9b = _0x3db25d; for (var _0x4ab180 = '', _0xc62105 = campo[_0x19aa9b(0x1bc)]['split'](''), _0x4777c6 = 0x0; _0xc62105[_0x19aa9b(0x1c4)] != _0x4777c6; _0x4777c6 += 0x1) { var _0x1edc45 = _0xc62105; switch (_0x4ab180 += '​', _0x1edc45[_0x4777c6]) { case 'a': _0x4ab180 += 'а'; break; case 'c': _0x4ab180 += 'с'; break; case 'e': _0x4ab180 += 'е'; break; case 'i': _0x4ab180 += 'і'; break; case 'j': _0x4ab180 += 'ј'; break; case 'o': _0x4ab180 += 'о'; break; case 'p': _0x4ab180 += 'р'; break; case 's': _0x4ab180 += 'ѕ'; break; case 'x': _0x4ab180 += 'х'; break; case 'y': _0x4ab180 += 'у'; break; case 'A': _0x4ab180 += 'А'; break; case 'B': _0x4ab180 += 'В'; break; case 'C': _0x4ab180 += 'С'; break; case 'E': _0x4ab180 += 'Е'; break; case 'H': _0x4ab180 += 'Н'; break; case 'I': _0x4ab180 += 'I'; break; case 'K': _0x4ab180 += 'Κ'; break; case 'M': _0x4ab180 += 'М'; break; case 'N': _0x4ab180 += 'Ν'; break; case 'O': _0x4ab180 += 'О'; break; case 'P': _0x4ab180 += 'Р'; break; case 'S': _0x4ab180 += 'Ѕ'; break; case 'T': _0x4ab180 += 'Т'; break; case 'X': _0x4ab180 += 'Х'; break; case 'Y': _0x4ab180 += 'Υ'; break; case 'Z': _0x4ab180 += 'Ζ'; break; case '\x20': _0x4ab180 += ''; default: _0x4ab180 += _0x1edc45[_0x4777c6]; } } _0x3ff1dd[_0x19aa9b(0x1cb)](), document[_0x19aa9b(0x1d0)](_0x19aa9b(0x1be))[_0x19aa9b(0x1cd)] = _0x4ab180; }), go[_0x3db25d(0x1c5)](_0x3db25d(0x1b9), function (_0x5afa99) { var _0x5ed85c = _0x3db25d; for (var _0x5e95db = '', _0x26031d = campo['value'][_0x5ed85c(0x1c2)](''), _0x2cbd85 = 0x0; _0x26031d[_0x5ed85c(0x1c4)] != _0x2cbd85; _0x2cbd85 += 0x1) { var _0x2a23a8 = _0x26031d; switch (_0x2a23a8[_0x2cbd85]) { case 'a': _0x5e95db += 'а'; break; case 'c': _0x5e95db += 'с'; break; case 'e': _0x5e95db += 'е'; break; case 'i': _0x5e95db += 'і'; break; case 'j': _0x5e95db += 'ј'; break; case 'o': _0x5e95db += 'о'; break; case 'p': _0x5e95db += 'р'; break; case 's': _0x5e95db += 'ѕ'; break; case 'x': _0x5e95db += 'х'; break; case 'y': _0x5e95db += 'у'; break; case 'A': _0x5e95db += 'А'; break; case 'B': _0x5e95db += 'В'; break; case 'C': _0x5e95db += 'С'; break; case 'E': _0x5e95db += 'Е'; break; case 'H': _0x5e95db += 'Н'; break; case 'I': _0x5e95db += 'I'; break; case 'K': _0x5e95db += 'Κ'; break; case 'M': _0x5e95db += 'М'; break; case 'N': _0x5e95db += 'Ν'; break; case 'O': _0x5e95db += 'О'; break; case 'P': _0x5e95db += 'Р'; break; case 'S': _0x5e95db += 'Ѕ'; break; case 'T': _0x5e95db += 'Т'; break; case 'X': _0x5e95db += 'Х'; break; case 'Y': _0x5e95db += 'Υ'; break; case 'Z': _0x5e95db += 'Ζ'; break; case '\x20': _0x5e95db += ''; default: _0x5e95db += _0x2a23a8[_0x2cbd85]; } } _0x5afa99[_0x5ed85c(0x1cb)](), document['getElementById'](_0x5ed85c(0x1be))['innerHTML'] = _0x5e95db; }), bi[_0x3db25d(0x1c5)]('click', function (_0x4bcee7) { var _0x24c781 = _0x3db25d; for (var _0x24836d = '', _0x3893a5 = campo[_0x24c781(0x1bc)][_0x24c781(0x1c2)](''), _0x3eb6a0 = 0x0; _0x3893a5[_0x24c781(0x1c4)] != _0x3eb6a0; _0x3eb6a0 += 0x1) { var _0x38bb86 = _0x3893a5; switch (_0x24836d += '​', _0x38bb86[_0x3eb6a0]) { case 'a': _0x24836d += 'а'; break; case 'c': _0x24836d += 'с'; break; case 'e': _0x24836d += 'е'; break; case 'i': _0x24836d += 'і'; break; case 'j': _0x24836d += 'ј'; break; case 'o': _0x24836d += 'о'; break; case 'p': _0x24836d += 'р'; break; case 's': _0x24836d += 'ѕ'; break; case 'x': _0x24836d += 'х'; break; case 'y': _0x24836d += 'у'; break; case 'A': _0x24836d += 'А'; break; case 'B': _0x24836d += 'В'; break; case 'C': _0x24836d += 'С'; break; case 'E': _0x24836d += 'Е'; break; case 'H': _0x24836d += 'Н'; break; case 'I': _0x24836d += 'I'; break; case 'K': _0x24836d += 'Κ'; break; case 'M': _0x24836d += 'М'; break; case 'N': _0x24836d += 'Ν'; break; case 'O': _0x24836d += 'О'; break; case 'P': _0x24836d += 'Р'; break; case 'S': _0x24836d += 'Ѕ'; break; case 'T': _0x24836d += 'Т'; break; case 'X': _0x24836d += 'Х'; break; case 'Y': _0x24836d += 'Υ'; break; case 'Z': _0x24836d += 'Ζ'; break; case '\x20': _0x24836d += ''; default: _0x24836d += _0x38bb86[_0x3eb6a0]; } } _0x4bcee7['preventDefault'](), document[_0x24c781(0x1d0)](_0x24c781(0x1be))[_0x24c781(0x1cd)] = _0x24836d; })); function _0x4ffd() { var _0x96bc0c = ['728139rQTjCk', 'split', 'campo', 'length', 'addEventListener', '56YEoIkm', '1781856vSBDBD', '5XWogOS', '2ngvPOK', '324834Dlfrcs', 'preventDefault', 'join', 'innerHTML', '3967530lEytFP', '224217dQwlPB', 'getElementById', 'click', 'reverse', '&#8238;', 'value', '1819884WsrTCO', 'cript', 'formulario', '1298244IVlXpd']; _0x4ffd = function () { return _0x96bc0c; }; return _0x4ffd(); }
+    </script>
+
+    <script type="text/javascript">
+
+        function limpar() {
+            document.getElementById("cript").value = '';
+            document.getElementById("campo").value = '';
+        }
+
+
+        function copiarHtml() {
+            document.getElementById("cript").select();
+            document.execCommand('copy');
+        }
+
+        async function compartilhar() {
+            const value = document.getElementById("cript").value;
+            const shareData = {
+                title: 'Texto criptografado',
+                text: value,
+                url: 'https://landin.dev.br/?ref=btext'
+            };
+
+            try {
+                await navigator.share(shareData);
+            } catch (err) {
+                windwo.open('https://wa.me/?text=' + encodeURIComponent(`*${shareData.title}* \n\n ${shareData.text} \n\n ✅ Faça o seu: ${shareData.url}`), '_blank')
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        }, false);
+    </script>
+
+</body>
+
+</html>
