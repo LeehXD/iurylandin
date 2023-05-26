@@ -1,8 +1,8 @@
 function getValue(id) {
-    var value = $(`#${id}`).val();
+    let value = $(`#${id}`).val();
     if (!value || value == '')
-        value = "<i style='color: orange;'>Não informado</i>"
-    return "<br> <b>" + value + "</b> <hr>";
+        value = "~Não informado~"
+    return value;
 }
 
 function dataAtualFormatada() {
@@ -16,55 +16,19 @@ function dataAtualFormatada() {
 }
 
 function getServicos() {
-    var array = []
-    var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
-
+    const array = []
+    const checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
     for (let i = 0; i < checkboxes.length; i++) {
         array.push(checkboxes[i].value)
     }
 
-    return array.toString()
-}
-
-function getMsg() {
-    var dataAtual = dataAtualFormatada();
-
-    var msg = `<h3>Novo Lead - Site Landin.</h3> <strong>Respostas do Formulário:</strong> <br><br>
-Nome: ${getValue('name')}<br>
-E-mail: ${getValue('email')}<br>
-Celular/WhatsAppp: ${getValue('whatsapp')}<br>
-<h4>Serviços Escolhidos</h4>
-${getServicos()}
-
-<p>Formulário preenchido em: ${dataAtual}</p>
-<hr>
-`
-
-    return msg;
+    return array.join();
 }
 
 
+// Atualizado para enviar msg no zap!
 function sendEmail() {
-    $.LoadingOverlay("show");
-    var to = "iurylandin@gmail.com";
-    var subject = "Novo Lead - Site Landin - " + dataAtualFormatada();
-    var msg = getMsg();
-    $.ajax({
-        url: "https://agenciapremiere.com.br/sendcontact.php",
-        type: "post",
-        data: `to=${to}&msg=${msg}&subject=${subject}`,
-        success: function(response) {
-            $.LoadingOverlay("hide");
-            swal("Sucesso!", "O Formulário foi enviado com sucesso! Em breve entraremos em contato com você", "success");
-            return false;
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-            $.LoadingOverlay("hide");
-            swal("Erro!", "Ocorreu um erro ao enviar seu formulário! Tente novamente", "error");
-            console.log(textStatus, errorThrown);
-        }
-    });
-
-
-    return false;
+    const text = `Olá, me chamo _${getValue('name')}_\n Esse é meu contato ${getValue('whatsapp')} e meu e-mail ${getValue('email')}, eu gostaria de saber mais sobre os serviços: ${getServicos()}`
+    window.open(`https://wa.me/556381202287/?text=${text}`, '_blank')
+    return;
 }
